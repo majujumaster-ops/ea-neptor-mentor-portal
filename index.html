@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080d18">
+  <title>EA NEPTOR | Mentor Portal</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #080d18;
+      color: #f4f7ff;
+    }
+    header {
+      padding: 22px 18px;
+      background: #101a2b;
+      border-bottom: 1px solid #26354c;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+    .brand { font-size: 20px; font-weight: bold; }
+    .brand span { color: #39d6b0; }
+    .status { color: #39d6b0; font-size: 12px; }
+    main { max-width: 900px; margin: auto; padding: 24px 16px; }
+    .hero {
+      padding: 28px 20px;
+      border: 1px solid #26354c;
+      border-radius: 16px;
+      background: linear-gradient(135deg, #14233b, #101523);
+    }
+    .hero h1 { font-size: 30px; margin: 0 0 12px; }
+    p { color: #b7c4d9; line-height: 1.6; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 14px;
+      margin-top: 20px;
+    }
+    .card {
+      background: #101a2b;
+      border: 1px solid #26354c;
+      border-radius: 14px;
+      padding: 20px;
+    }
+    .card h2 { font-size: 17px; }
+    .number { color: #39d6b0; font-size: 24px; font-weight: bold; }
+    .button {
+      display: inline-block;
+      background: #39d6b0;
+      color: #08121b;
+      border: 0;
+      padding: 12px 16px;
+      border-radius: 8px;
+      font-weight: bold;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    footer { text-align: center; color: #8492a8; padding: 24px; font-size: 12px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">EA <span>NEPTOR</span></div>
+    <div class="status">MENTOR PORTAL</div>
+  </header>
+  <main>
+    <section class="hero">
+      <p>EXPERT ADVISOR MANAGEMENT</p>
+      <h1>Welcome to EA NEPTOR</h1>
+      <p>Your central workspace for managing MT4 and MT5 trading robots and software licences.</p>
+      <a class="button" href="#features">Explore Portal</a>
+    </section>
+    <section class="grid" id="features">
+      <div class="card">
+        <h2>Robot Management</h2>
+        <div class="number">MT4 / MT5</div>
+        <p>Organise your Expert Advisor products in one place.</p>
+      </div>
+      <div class="card">
+        <h2>Licence Keys</h2>
+        <div class="number">Licensing</div>
+        <p>Prepare a system for issuing and managing software licences.</p>
+      </div>
+      <div class="card">
+        <h2>Mentor Accounts</h2>
+        <div class="number">Accounts</div>
+        <p>A workspace designed for your mentor management platform.</p>
+      </div>
+    </section>
+    <section class="card" style="margin-top:20px">
+      <h2>Portal Setup</h2>
+      <p>This is the initial public-facing website. Secure login, robot uploads, licence generation and database services must be connected before they can function.</p>
+    </section>
+  </main>
+  <footer>EA NEPTOR Mentor Portal</footer>
+</body>
+  </html>
+  
